@@ -222,8 +222,8 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
-     padding-bottom: 0px;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 
 .padding_0{
@@ -517,9 +517,10 @@ button {
     padding-top: 50px;
 }
 
+
 .testimonial_section{
     width: 100%;
-    float: left;
+    /* float: left; */
 }
 .testimonial_text{
     width: 100%;
@@ -529,6 +530,12 @@ button {
     text-align: center;
     color: #191919;
     text-transform: uppercase;
+}
+
+.members {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .ipsum_text{
@@ -542,7 +549,7 @@ button {
 
 .testimonial_section_2 {
     width: 100%;
-    float: left;
+    /* float: left; */
     padding-top: 50px;
 }
 .box_main {
@@ -571,7 +578,7 @@ button {
 }
 
 .client_main{
-    width: 45%;
+    width: 85%;
     float: left;
     background-color: #4fe57e;
     height: auto;
@@ -603,6 +610,7 @@ button {
     float: left;
     font-size: 20px;
     color: #fefeff;
+    margin-left: 50px;
 }
 
 .sandy_text_1{
@@ -610,7 +618,7 @@ button {
     float: left;
     font-size: 18px;
     color: #191919;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-top: 0px;
 }
 
